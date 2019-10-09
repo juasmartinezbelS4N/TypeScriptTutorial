@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var batman = "Batman";
+var linternaVerde = 'Linterna Verde';
+var volcanNegro = "Volc\u00E1n Negro";
+console.log(batman);
+console.log(linternaVerde);
+console.log(volcanNegro);
+var concatenar = "Los héroes son: " + batman + ", " + linternaVerde;
+var concat = "Los h\u00E9roes son: " + batman + ", " + linternaVerde + ", " + volcanNegro;

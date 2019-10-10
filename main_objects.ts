@@ -1,13 +1,11 @@
 export {}
-let flash: {nombre:string, poderes:string[], edad:number}={
+let flash: {nombre:string, poderes:any[], edad:number, getNombre:()=>string}={
     nombre: "Barry Allen",
     edad: 24,
-    poderes: ["Correr rapido", "Viajar por el tiempo"]
+    poderes: ["Correr rapido", "Viajar por el tiempo", 24],
     getNombre(){
-
+        return this.nombre;
     }
 }
 
-flash.getNombre(){
-    
-}
+console.log(flash.getNombre());

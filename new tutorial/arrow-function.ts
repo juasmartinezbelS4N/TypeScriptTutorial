@@ -24,3 +24,21 @@ console.log(myArr3);
 
 /**Tuples**/
 var myTuple:[number,boolean]=[1,true];
+
+/** Functions **/
+
+function add(a:number,b:number,c?:number,d:number=2){
+    if(c==undefined) return a+b;
+    return a+b+c+d;
+}
+
+//funciton add():number is a possibility
+
+console.log(add(2,3));
+//console.log(add("Me",3));//error
+console.log(add(6,4,3));
+console.log(add(6,4,7,3));
+
+for(let i:number=0;i<10;i++){
+    console.log(i);
+}

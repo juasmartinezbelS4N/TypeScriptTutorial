@@ -35,3 +35,19 @@ console.log(add(6, 4, 7, 3));
 for (var i = 0; i < 10; i++) {
     console.log(i);
 }
+/**Implicit types**/
+var number = add;
+number = "error"; //You heard it, error
+console.log(number);
+/**Any Type*/
+var d; //Flexibility
+var e; //The simple declaration makes it an any
+d = 0;
+e = 10;
+d = "10";
+e = "0";
+//Can variate between some specific types
+var u;
+u = 1;
+u = true;
+u = "true";

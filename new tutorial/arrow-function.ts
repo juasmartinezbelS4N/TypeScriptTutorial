@@ -42,3 +42,24 @@ console.log(add(6,4,7,3));
 for(let i:number=0;i<10;i++){
     console.log(i);
 }
+
+
+
+/**Implicit types**/
+let number=add;
+number = "error" //You heard it, error
+console.log(number)
+
+/**Any Type*/
+let d:any; //Flexibility
+let e; //The simple declaration makes it an any
+d=0;
+e=10;
+d="10";
+e="0"
+//Can variate between some specific types
+let u:number|boolean;
+u=1;
+u=true;
+u="true";
+
